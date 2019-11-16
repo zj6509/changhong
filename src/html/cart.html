@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+    <!-- ----------头部------------ -->
+    <header>
+        <div class="control-container">
+            <div class="control-left">
+                <ul>
+                    <li><a href="javascript:;" class="cur">长虹官网</a></li>
+                    <li><a href="javascript:;">关于长虹</a></li>
+                    <li><a href="javascript:;">商务合作</a></li>
+                    <li><a href="javascript:;">
+                            <img src="../images/en_icon.png" alt="">&nbsp;&nbsp;English
+                        </a></li>
+                </ul>
+            </div>
+            <div class="control-right">
+                <div class="login">
+                    <a href="javascript:;">登录</a><span>|</span><a href="javascript:;">注册</a>
+                </div>
+                <div class="control-sort">
+                    <!-- -------我的长虹------- -->
+                    <div class="sort-container">
+                        <div class="sort-mine">
+                            <a href="javascript:;" class="toolbar-login">我的长虹</a>
+                        </div>
+                        <div class="sort-tips">
+                            <div class="sort-infor">
+                                <img src="../images/my-photo_03.jpg" alt="" width="60" height="60" id="user_image">
+                                <p class="sort-phone"
+                                    style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin-right: 5px;">
+                                    <a href="javascript:;" id="login_account">您好请登录</a></p>
+                                <p class="sort-setting"><a href="javascript:;">账户设置</a></p>
+                            </div>
+                            <div class="sort-operation">
+                                <a href="javascript:;">我的订单</a>
+                                <span>|</span>
+                                <a href="javascript:;">我的预约</a>
+                                <div class="sort-operation-cut"></div>
+                                <a href="javascript:;">家电管家</a>
+                                <span>|</span>
+                                <a href="javascript:;">服务记录</a>
+                                <div class="sort-operation-cut"></div>
+                                <a href="javascript:;">我的收藏</a>
+                                <span>|</span>
+
+                                <div class="sort-operation-cut"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------虹创有品------ -->
+                    <div class="sort-container">
+                        <div class="sort-row">
+                            <a href="javascript:;" target="_blank" class="tool-news">虹创有品</a>
+                            <img src="../images/ewm.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- ----------购物车---------- -->
+                    <div class="sort-container">
+                        <div class="sort-right-row">
+                            <a href="javascript:;" class="tool-shoppingCar"><span id="mycartNum"
+                                    style="display:none;">0</span>购物车</a>
+                        </div>
+                        <div class="sort-title">
+                            <h1>购物车中还没有商品，赶紧选购吧</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ----------长虹logo------------ -->
+    <div class="logo-header-nav " style="box-shadow: 0px 3px 3px 0px #e1e1e1;">
+        <div class="com-width">
+            <div class="header-logo">
+                <a href="javascript:;"><img src="../images/header-logo.png" alt=""></a>
+            </div>
+            <!-- ---------流程--------- -->
+            <div class="flow-chart">
+                <div class="flow-chart-step">
+                    <div class="flow-step-num">
+                        <span>1</span>
+                        我的购物车
+                    </div>
+                    <p></p>
+                    <div class="flow-step-num flow-common">
+                        <span class="step">2</span>
+                        订单确认
+                    </div>
+                    <p></p>
+                    <div class="flow-step-num flow-common">
+                        <span class="step">3</span>
+                        在线支付
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------main------------- -->
+    <form action="" method="">
+        <div class="main-container">
+            <!-- --------购物车商品列表----- -->
+            <div class="main-top">
+                <div class="main-cart-sum">
+                    <div class="main-cart-top clearfix">
+                        <div class="lf clearfix">
+                            <div class="car-all-check er">
+                                <input type="checkbox" id="car_all_check">
+                            </div>
+                            <p class="car-lf-sp">
+                                全选<span id="total_num">2</span>种商品
+                            </p>
+                        </div>
+                        <p class="rt-sp">
+                            <span>0</span>种商品已失效
+                        </p>
+                    </div>
+                </div>
+                <!-- -------购物列表-------- -->
+                <div class="main-items">
+                    <div class="main-items-goods">
+                        <div class="main-good-check">
+                            <input type="checkbox">
+                        </div>
+                        <div class="main-goods-rt">
+                            <div class="main-goods-top">
+                                <div class="main-goods-blank"></div>
+                                <div class="main-blank-rt">
+                                    <a href="javascript:;" class="like"></a>
+                                    <a href="javascript:;" class="delete"></a>
+                                </div>
+                            </div>
+                            <div class="main-goods-bottom">
+                                <a href="javascript:;">
+                                    <img src=".../src/images/watch03.jpg" alt="">
+                                </a>
+                                <!-- -------标题------ -->
+                                <div class="goods-main">
+                                    <a href="javascript:;">长虹（CHANGHONG）65Q6K 65英寸超薄物联网杜比视界HDR电视</a>
+                                </div>
+                                <!-- ------单价----- -->
+                                <div class="goods-price">
+                                    <p class="goods-notes"></p>
+                                    <p class="goods-cost">
+                                        单价<span id="item11818401_price">
+                                            10997.00</span>元
+                                    </p>
+                                    <p class="notes-bottom"></p>
+                                </div>
+                                <!-- ------数量------ -->
+                                <div class="goods-num">
+                                    <label for="">数量</label>
+                                    <div class="goods-sum">
+                                        <a class="sum-reduce" href="javascript:;"></a>
+                                        <input type="text">
+                                        <a class="sum-add" href="javascript:;"></a>
+                                    </div>
+                                </div>
+                                <!-- ---------有货-------- -->
+                                <p class="available">有货</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="distance"></div>
+            </div>
+            <!-- --------总计---------- -->
+            <div class="main-bottom-price">
+                <div class="com-width">
+                    <!-- ------左边部分------- -->
+                    <div class="goodsNum-lt">
+                        <p class="goodsNum-num">
+                            已选<span>0</span>件商品
+                        </p>
+                        <em></em>
+                        <p class="goodsNum-discounts">满减优惠-0元</p>
+                        <em></em>
+                        <p class="goodsNum-present">查看赠品0件</p>
+                    </div>
+                    <!-- ------右边部分------- -->
+                    <div class="goodsNum-rt">
+                        <p class="sum-price">
+                            总计<span>0.00</span>元
+                        </p>
+                        <input type="button" value="立即结算">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- ----------------footer-------------------- -->
+    <footer>
+        <div class="com-width">
+            <div class="footer-title">
+                <div class="footer-about">
+                    <div class="about-lf common">
+                        <div class="about-icon" style="margin-top: 7px">
+                            <img alt="" width="55" height="37" src="../images/footer01.png">
+                        </div>
+                        <div class="about-describe">
+                            <h1 style="font-weight:bold">物流快线</h1>
+                            <p>及时响应准确送达</p>
+                        </div>
+                    </div>
+                    <div class="about-rt common">
+                        <div class="about-icon" style="margin-top: 7px">
+                            <img alt="" width="45" height="38" src="../images/footer02.png">
+                        </div>
+                        <div class="about-describe">
+                            <h1 style="font-weight:bold">无忧报修</h1>
+                            <p>7*24小时客服热线</p>
+                        </div>
+                    </div>
+                    <div class="about-center common">
+                        <div class="about-icon" style="margin-top: 7px">
+                            <img alt="" width="46" height="41" src="../images/footer03.png">
+                        </div>
+                        <div class="about-describe">
+                            <h1 style="font-weight:bold">售后网点</h1>
+                            <p>20000余家售后网点</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-ways">
+                    <div class="footer-server lf">
+                        <ul class="lf">
+                            <li class="footer-title">品牌渠道</li>
+                            <li>长虹天猫</li>
+                            <li>长虹京东</li>
+                            <li>长虹苏宁</li>
+                            <li>长虹国美</li>
+                        </ul>
+                        <ul class="lf ml40">
+                            <li class="footer-title">友情链接</li>
+                            <li>MELING美菱</li>
+                            <li>中科美菱</li>
+                            <li>日电科技</li>
+                            <li>长虹手机</li>
+                        </ul>
+                        <ul class="lf ml40">
+                            <li class="footer-title">友情链接</li>
+                            <li>家事帮</li>
+                            <li>腾讯视频•TV端</li>
+                            <li>虹创有品</li>
+                            <li>长虹电子</li>
+                        </ul>
+                        <ul class="rt">
+                            <li class="footer-title">服务支持</li>
+                            <li>产品查询</li>
+                            <li>维修服务</li>
+                            <li>延保服务</li>
+                            <li>下载中心</li>
+                        </ul>
+                    </div>
+                    <div class="footer-team footer-server lf">
+                        <ul class="lf">
+                            <li class="footer-title">长虹集团</li>
+                            <li>公司动态</li>
+                            <li>投资者关系</li>
+                        </ul>
+                        <ul class="rt">
+                            <li class="footer-title">商务合作</li>
+                            <li>经销商登录</li>
+                            <li>供应商登录</li>
+                            <li>服务商登录</li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <div class="foot-shopping">
+                            <p><a href="javascript:;" target="_blank">购物指南</a></p>
+                        </div>
+                    </div>
+                    <div class="footer-tel lf">
+                        <p class="airlines"><a style="cursor: pointer; color:#f12020;" href="javascript:;"
+                                id="online-ask-item_1">在线客服</a></p>
+                        <p class="feedback"><a href="javascript:;" target="_blank" style="color:#f12020">问题反馈</a></p>
+                        <h1 style="margin-top:26px;">4008-111-666</h1>
+                        <h1>4006-111-666</h1>
+                    </div>
+                    <div class="footer-code">
+                        <div class="footer-code-box lf">
+                            <img alt="官方特卖" width="108" height="108" src="../images/ewm01.jpg">
+                            <p>官方特卖</p>
+                        </div>
+                        <div class="footer-code-box rt">
+                            <img alt="长虹服务" width="108" height="108" src="../images/ewm02.jpg">
+                            <p>长虹服务</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="com-width">
+                <div class="foot-logo">
+                    <img src="../images/footer-logo-01.png" alt="">
+                </div>
+                <div class="footer-text">
+                    <p><a href="javascript:;">蜀ICP备09001737号-1</a> | © 2019 四川长虹电器股份有限公司 版权所有</p>
+                    <p>地址：四川省绵阳市高新区绵兴东路35号</p>
+                </div>
+                <div class="footer-note">
+                    <p style="margin-left: 144px"><img alt="" width="26" height="31"
+                            src="../images/footer-01.png">经营性网站备案信息</p>
+                    <p style="margin-left: 106px"><img alt="" width="24" height="20" src="../images/footer-02.png">诚信网站
+                    </p>
+                    <p style="margin-left: 104px"><a href="javascript:;" target="_blank"><img
+                                src="../images/footer-03.gif" alt="" width="20" height="20">工商网监</a></p>
+                    <p style="margin-left: 104px"><img alt="" width="18" height="20"
+                            src="../images/footer-04.png">网上交易保障中心</p>
+                    <p style="margin-left: 95px"><img alt="" width="20" height="20"
+                            src="../images/footer-05.png">可信网站信用评估</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

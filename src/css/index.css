@@ -1,0 +1,325 @@
+main {
+  padding-bottom: 40px;
+}
+main > .main-banner {
+  height: 500px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+main > .main-banner > ul {
+  height: 500px;
+}
+main > .main-banner > ul > li {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+  height: 100%;
+  overflow: hidden;
+}
+main > .main-banner > ul > li > img {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -960px;
+}
+main > .main-banner > .main-banner-tool {
+  top: 0px;
+  position: absolute;
+  left: 50%;
+  margin-left: -615px;
+}
+main > .main-banner > .main-banner-tool > .main-banner-btn {
+  height: 215px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 161px;
+}
+main > .main-banner > .main-banner-tool > .main-banner-left {
+  background: url(../images/icon-arrow.png) no-repeat left center;
+  left: 239px;
+}
+main > .main-banner > .main-banner-tool > .main-banner-right {
+  background: url(../images/icon-arrow.png) no-repeat left center;
+  right: 26px;
+}
+main > .main-banner > .main-banner-tool > .main-banner-num {
+  top: 475px;
+  overflow: hidden;
+  position: absolute;
+  right: 59px;
+}
+main > .main-banner > .main-banner-tool > .main-banner-num a {
+  display: block;
+  height: 8px;
+  width: 8px;
+  float: left;
+  margin-left: 17px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: rgba(243, 241, 241, 0.5);
+}
+main > .main-banner > .main-banner-tool > .main-banner-num .cur {
+  background: rgba(240, 122, 13, 0.8);
+}
+main > .com-width > .advertising > .home-radio {
+  height: 40px;
+  padding-left: 55px;
+  background: url(../images/home-radio-icon_03.png) no-repeat left 3px;
+  overflow: hidden;
+  position: relative;
+}
+main > .com-width > .advertising > .home-radio > h1 {
+  font-weight: normal;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333333;
+  float: left;
+}
+main > .com-width > .advertising > .home-radio > .home-radio-scroll {
+  overflow: hidden;
+  float: left;
+}
+main > .com-width > .advertising > .home-radio > .home-radio-container {
+  overflow: hidden;
+  width: 1128px;
+  float: left;
+  height: 40px;
+  top: 0px;
+  position: relative;
+}
+main > .com-width > .advertising > .home-activity {
+  height: 160px;
+  margin-bottom: 30px;
+}
+main > .com-width > .advertising > .home-activity > .home-activity-container {
+  height: 160px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+}
+main > .com-width > .advertising > .home-activity > .home-activity-container > .home-activity-nav {
+  width: 226px;
+  overflow: hidden;
+  position: relative;
+  background: #585858;
+}
+main > .com-width > .advertising > .home-activity > .home-activity-container > .home-activity-nav > .activity-nav-line-f {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #717171;
+}
+main > .com-width > .advertising > .home-activity > .home-activity-container > .home-activity-nav > .activity-nav-line-s {
+  position: absolute;
+  left: 50%;
+  display: block;
+  height: 100%;
+  width: 1px;
+  background: #717171;
+}
+main > .com-width > .advertising > .home-activity > .home-activity-container > .home-activity-nav ul > li {
+  width: 50%;
+  height: 80px;
+  float: left;
+}
+main > .com-width > .advertising > .home-activity > .home-activity-container > .home-activity-nav ul > li > a {
+  display: block;
+  height: 79px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1;
+}
+main > .com-width > .advertising > .home-activity > .home-activity-container > .home-activity-nav ul > li > a > img {
+  padding: 15px 0px 5px;
+  margin: 0px 41.5px;
+}
+main > .com-width > .advertising > .home-activity > .home-activity-container > .home-activity-link {
+  width: 320px;
+  margin-left: 13px;
+}
+main > .com-width > .home-series {
+  height: 685px;
+  padding-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+main > .com-width > .home-series > .home-series-left {
+  width: 226px;
+  float: left;
+}
+main > .com-width > .home-series > .home-series-left > .home-series-title {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+main > .com-width > .home-series > .home-series-left > .home-series-title > p {
+  border-left: 4px solid #ca694e;
+  padding-left: 13px;
+  font-size: 22px;
+  color: #333333;
+  line-height: 25px;
+  height: 25px;
+  float: left;
+}
+main > .com-width > .home-series > .home-series-left > .home-series-title > a {
+  color: #8a4532;
+  font-size: 14px;
+  float: right;
+  margin-right: 5px;
+}
+main > .com-width > .home-series > .home-series-left > .home-series-tj {
+  height: 630px;
+  overflow: hidden;
+  width: 226px;
+}
+main > .com-width > .home-series > .home-series-left > .home-series-tj img {
+  display: block;
+}
+main > .com-width > .home-series > .home-series-content {
+  margin-left: 226px;
+}
+main > .com-width > .home-series > .home-series-content > .home-series-nav {
+  line-height: 30px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+main > .com-width > .home-series > .home-series-content > .home-series-nav > ul {
+  overflow: hidden;
+  float: right;
+  margin-right: 8px;
+}
+main > .com-width > .home-series > .home-series-content > .home-series-nav > ul > li {
+  float: left;
+  margin-left: 33px;
+  line-height: 25px;
+  height: 25px;
+}
+main > .com-width > .home-series > .home-series-content > .home-series-nav > ul > li > a {
+  font-size: 14px;
+  color: #333333;
+}
+main > .com-width > .home-series > .home-series-content > .home-goods-right {
+  height: 640px;
+}
+main > .com-width > .home-series > .home-series-content > .home-goods-right > .home-ele-f {
+  width: 190px;
+  height: 260px;
+  margin-bottom: 10px;
+  padding: 25px;
+  float: left;
+  margin-left: 10px;
+  background: #ffffff;
+}
+main > .com-width > .home-series > .home-series-content > .home-goods-right > .home-ele-f > .home-ele-img {
+  height: 160px;
+  width: 160px;
+  margin: 0px auto;
+  line-height: 160px;
+  text-align: center;
+}
+main > .com-width > .home-series > .home-series-content > .home-goods-right > .home-ele-f > .home-ele-img > a {
+  display: block;
+}
+main > .com-width > .home-series > .home-series-content > .home-goods-right > .home-ele-f > .home-ele-img > a > img {
+  padding-top: 8px;
+  width: 160px;
+  height: 160px;
+  margin: 0px auto;
+}
+main > .com-width > .home-series > .home-series-content > .home-goods-right > .home-ele-f > .home-ele-text > h1 {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 15px;
+}
+main > .com-width > .home-series > .home-series-content > .home-goods-right > .home-ele-f > .home-ele-text > h1 > a {
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+}
+main > .com-width > .home-series > .home-series-content > .home-goods-right > .home-ele-f > .home-ele-text > p {
+  margin-top: 10px;
+  line-height: 12px;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 12px;
+}
+main > .com-width > .home-series > .home-series-content > .home-goods-right > .home-ele-f > .home-ele-text > h2 {
+  font-size: 16px;
+  text-align: center;
+  color: #f12020;
+  line-height: 22px;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: normal;
+}
+main > .com-width > .home-series > .home-series-content > .home-goods-right > .home-ele-f:hover {
+  box-shadow: 0px 0px 5px 3px #e9e9e9;
+}
+main > .com-width > .home-series:nth-of-type(3) .home-series-left p {
+  border-left: 4px solid #759dfc;
+}
+main > .com-width > .home-series:nth-of-type(3) .home-series-left a {
+  color: #3a6de4;
+}
+main > .com-width > .home-series:nth-of-type(4) .home-series-left p {
+  border-left: 4px solid #ff9c00;
+}
+main > .com-width > .home-series:nth-of-type(4) .home-series-left a {
+  color: #ad6b03;
+}
+main > .com-width > .home-series:nth-of-type(5) .home-series-left p {
+  border-left: 4px solid #c59ac7;
+}
+main > .com-width > .home-series:nth-of-type(5) .home-series-left a {
+  color: #a72cbb;
+}
+main > .com-width > .home-series:nth-of-type(6) .home-series-left p {
+  border-left: 4px solid #ff9c00;
+}
+main > .com-width > .home-series-other {
+  height: 365px;
+}
+.kind {
+  position: fixed;
+  top: 50%;
+  margin-top: -150px;
+  margin-left: 0px;
+  left: 0px;
+}
+.kind > ul {
+  display: block;
+  overflow: hidden;
+}
+.kind > ul > li {
+  width: 45px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.kind > ul > li > a {
+  display: block;
+  font-size: 14px;
+  border-bottom: 1px solid #d6d6d6;
+  color: #666;
+}
+.kind > ul > li.active > a {
+  background-color: #ee1411;
+  color: #fff;
+}

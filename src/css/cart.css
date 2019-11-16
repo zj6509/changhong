@@ -1,0 +1,352 @@
+.logo-header-nav > .com-width {
+  overflow: hidden;
+}
+.logo-header-nav > .com-width > .header-logo {
+  float: left;
+  overflow: hidden;
+}
+.logo-header-nav > .com-width > .flow-chart {
+  margin: 24px 0 0 257px;
+  overflow: hidden;
+}
+.logo-header-nav > .com-width > .flow-chart > .flow-chart-step {
+  float: right;
+}
+.logo-header-nav > .com-width > .flow-chart > .flow-chart-step > .flow-step-num {
+  font-size: 14px;
+  color: #4dbd62;
+  float: left;
+  line-height: 30px;
+}
+.logo-header-nav > .com-width > .flow-chart > .flow-chart-step > .flow-step-num > span {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: #4dbd62;
+  margin-right: 8px;
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #4dbd62;
+}
+.logo-header-nav > .com-width > .flow-chart > .flow-chart-step > .flow-step-num > .step {
+  background: #fff;
+  color: #afafaf;
+  border: 1px solid #afafaf;
+}
+.logo-header-nav > .com-width > .flow-chart > .flow-chart-step > .flow-common {
+  color: #666666;
+}
+.logo-header-nav > .com-width > .flow-chart > .flow-chart-step > p {
+  float: left;
+  width: 130px;
+  border-top: 4px solid #cccccc;
+  margin: 14px 15px 0;
+}
+form > .main-container {
+  background: #f7f7f7;
+  overflow: hidden;
+}
+form > .main-container > .main-top {
+  width: 1226px;
+  margin: 0 auto;
+}
+form > .main-container > .main-top > .main-cart-sum {
+  overflow: hidden;
+}
+form > .main-container > .main-top > .main-cart-sum > .main-cart-top {
+  padding-top: 5px;
+  font-size: 14px;
+  color: #333;
+  line-height: 66px;
+}
+form > .main-container > .main-top > .main-cart-sum > .main-cart-top > .lf {
+  float: left;
+}
+form > .main-container > .main-top > .main-cart-sum > .main-cart-top > .lf > .car-all-check {
+  cursor: pointer;
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin: 25px 18px 0 15px;
+  background: url(../images/cart01.png) no-repeat;
+}
+form > .main-container > .main-top > .main-cart-sum > .main-cart-top > .lf > .car-all-check > input {
+  float: left;
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+  cursor: pointer;
+}
+form > .main-container > .main-top > .main-cart-sum > .main-cart-top > .lf > p.car-lf-sp {
+  float: left;
+  margin-left: 5px;
+}
+form > .main-container > .main-top > .main-cart-sum > .main-cart-top > .lf > p.car-lf-sp > span {
+  color: #f12020;
+  margin: 0 4px;
+}
+form > .main-container > .main-top > .main-cart-sum > .main-cart-top > p.rt-sp {
+  float: right;
+  padding-left: 15px;
+  margin-right: 15px;
+  background: url(../images/cart02.png) no-repeat left center;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods {
+  background: #fff;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-good-check {
+  cursor: pointer;
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin: 72px 0 0 16px;
+  background: url(../images/cart01.png) no-repeat;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-good-check > input {
+  float: left;
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+  cursor: pointer;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt {
+  margin-left: 50px;
+  border-left: 1px solid #f7f7f7;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-top {
+  border-bottom: 1px solid #f7f7f7;
+  height: 42px;
+  line-height: 42px;
+  font-size: 14px;
+  color: #666666;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-top > .main-goods-blank {
+  height: 38px;
+  line-height: 38px;
+  padding-left: 12px;
+  float: left;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-top > .main-blank-rt {
+  float: right;
+  margin-top: 8px;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-top > .main-blank-rt > .like {
+  display: block;
+  float: left;
+  width: 24px;
+  height: 22px;
+  margin: 0 22px 0 6px;
+  background: url(../images/car-like.png) no-repeat;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-top > .main-blank-rt > .delete {
+  display: block;
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin: 0 22px 0 6px;
+  background: url(../images/car-error.png) no-repeat;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom {
+  height: auto;
+  padding: 5px 0px;
+  height: 112px;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > a {
+  display: block;
+  float: left;
+  width: 110px;
+  height: 110px;
+  margin-left: 10px;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > a > img {
+  display: block;
+  width: 110px;
+  height: 110px;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .goods-main {
+  width: 300px;
+  height: 110px;
+  float: left;
+  margin-left: 13px;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .goods-main > a {
+  font-size: 14px;
+  font-weight: normal;
+  color: #333333;
+  display: table-cell;
+  vertical-align: middle;
+  height: 110px;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .goods-price {
+  float: left;
+  margin-left: 25px;
+  width: 190px;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .goods-price > .goods-notes {
+  font-size: 14px;
+  color: #909090;
+  margin-top: 18px;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-decoration: line-through;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .goods-price > .goods-cost {
+  font-size: 14px;
+  color: #000;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .goods-price > .goods-cost > span {
+  color: #eb1a21;
+  margin: 0 22px;
+  font-size: 16px;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .goods-price > .notes-bottom {
+  font-size: 12px;
+  color: #999;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .goods-num {
+  float: left;
+  width: 225px;
+  height: 35px;
+  margin: 38px 0 0 30px;
+  overflow: hidden;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .goods-num > label {
+  font-size: 14px;
+  display: block;
+  float: left;
+  width: 50px;
+  color: #000;
+  line-height: 35px;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .goods-num > .goods-sum {
+  float: left;
+  border: 1px solid #cccccc;
+  width: 173px;
+  height: 33px;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .goods-num > .goods-sum > input {
+  display: block;
+  float: left;
+  padding: 0 1px;
+  width: 75px;
+  height: 33px;
+  line-height: 33px;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .goods-num > .goods-sum > a {
+  display: block;
+  width: 47px;
+  height: 33px;
+  line-height: 27px;
+  color: #bbbbbb;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .goods-num > .goods-sum > .sum-reduce {
+  float: left;
+  background: url(../images/reduce-icon.jpg) no-repeat center center;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .goods-num > .goods-sum > .sum-add {
+  float: right;
+  background: url(../images/add-icon.png) no-repeat center center;
+}
+form > .main-container > .main-top > .main-items > .main-items-goods > .main-goods-rt > .main-goods-bottom > .available {
+  float: right;
+  width: 270px;
+  font-size: 14px;
+  color: black;
+  line-height: 112px;
+  text-align: center;
+}
+form > .main-container > .main-top > .distance {
+  margin-bottom: 46px;
+  overflow: hidden;
+}
+form > .main-container > .main-bottom-price {
+  width: 100%;
+  height: 100px;
+  background: #313131;
+  box-shadow: 0px 0px 3px 0px #fff;
+  border-top: 2px solid #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+form > .main-container > .main-bottom-price > .com-width > .goodsNum-lt > .goodsNum-num {
+  float: left;
+  font-size: 14px;
+  margin-left: 5px;
+  color: #fff;
+  line-height: 100px;
+}
+form > .main-container > .main-bottom-price > .com-width > .goodsNum-lt > .goodsNum-num > span {
+  font-size: 22px;
+  color: #f12020;
+  margin: 0 16px;
+}
+form > .main-container > .main-bottom-price > .com-width > .goodsNum-lt > em {
+  display: block;
+  float: left;
+  margin: 42px 27px 0 47px;
+  font-style: normal;
+  border-left: 2px solid #acacac;
+  height: 16px;
+}
+form > .main-container > .main-bottom-price > .com-width > .goodsNum-lt > .goodsNum-discounts {
+  float: left;
+  font-size: 14px;
+  color: #fff;
+  line-height: 100px;
+}
+form > .main-container > .main-bottom-price > .com-width > .goodsNum-lt > .goodsNum-present {
+  float: left;
+  font-size: 14px;
+  color: #fff;
+  line-height: 100px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+form > .main-container > .main-bottom-price > .com-width > .goodsNum-rt {
+  float: right;
+}
+form > .main-container > .main-bottom-price > .com-width > .goodsNum-rt > .sum-price {
+  float: left;
+  font-size: 14px;
+  color: #fff;
+  line-height: 100px;
+}
+form > .main-container > .main-bottom-price > .com-width > .goodsNum-rt > .sum-price > span {
+  font-size: 16px;
+  color: #f12020;
+  margin: 0 17px;
+}
+form > .main-container > .main-bottom-price > .com-width > .goodsNum-rt > input {
+  display: block;
+  float: left;
+  margin: 30px 14px 0 66px;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  background: #f12020;
+}

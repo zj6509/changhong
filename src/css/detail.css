@@ -1,0 +1,404 @@
+main {
+  width: 100%;
+}
+main > .main-place {
+  margin: 0 auto;
+  width: 1226px;
+  height: 47px;
+  line-height: 47px;
+  color: #000;
+  font-size: 14px;
+}
+main > .main-place > a {
+  color: #000;
+  font-size: 14px;
+}
+main > .main-place > span {
+  padding-left: 6px;
+  padding-right: 10px;
+}
+main > .main-detail {
+  width: 100%;
+  border-top: 1px solid #d7d7d7;
+  background: #f9f9f9;
+}
+main > .main-detail > .main-primary {
+  margin: 0 auto;
+  width: 1226px;
+  padding-bottom: 33px;
+}
+main > .main-detail > .main-primary > .main-glass {
+  float: left;
+  padding-top: 25px;
+  width: 512px;
+}
+main > .main-detail > .main-primary > .main-glass > .main-photo {
+  position: relative;
+  padding: 0;
+  width: 510px;
+  height: 510px;
+  border: 1px solid #e7e7e7;
+}
+main > .main-detail > .main-primary > .main-glass > .main-photo > .main-picture img {
+  width: 510px;
+  height: 510px;
+  display: block;
+}
+main > .main-detail > .main-primary > .main-glass > .main-photo > .big {
+  display: none;
+  position: absolute;
+  z-index: 99;
+  left: 512px;
+  top: -1px;
+  width: 510px;
+  height: 510px;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  overflow: hidden;
+}
+main > .main-detail > .main-primary > .main-glass > .main-photo > .big img {
+  width: 1275px;
+  height: 1275px;
+  position: absolute;
+  display: block;
+}
+main > .main-detail > .main-primary > .main-glass > .main-list {
+  padding-top: 10px;
+  height: 96px;
+}
+main > .main-detail > .main-primary > .main-glass > .main-list > .main-lt {
+  display: block;
+  float: left;
+  margin-top: 10px;
+  width: 19px;
+  height: 86px;
+  background: url(../images/lt.jpg) no-repeat left center;
+}
+main > .main-detail > .main-primary > .main-glass > .main-list > .main-rt {
+  display: block;
+  float: left;
+  margin-top: 10px;
+  width: 19px;
+  height: 86px;
+  background: url(../images/rt.jpg) no-repeat right center;
+}
+main > .main-detail > .main-primary > .main-glass > .main-list > div {
+  float: left;
+  margin-top: 10px;
+  width: 470px;
+  overflow: hidden;
+}
+main > .main-detail > .main-primary > .main-glass > .main-list > div > ul {
+  height: 86px;
+}
+main > .main-detail > .main-primary > .main-glass > .main-list > div > ul > li {
+  float: left;
+  margin-right: 10px;
+}
+main > .main-detail > .main-primary > .main-glass > .main-list > div > ul > li > .item-s {
+  display: block;
+  width: 84px;
+  height: 84px;
+  border: 1px solid #eaeaea;
+}
+main > .main-detail > .main-primary > .main-glass > .main-list > div > ul > .m0 {
+  margin-right: 0;
+}
+main > .main-detail > .main-primary > .description {
+  width: 650px;
+  float: right;
+}
+main > .main-detail > .main-primary > .description > .description-name {
+  float: left;
+  padding-top: 54px;
+  padding-bottom: 8px;
+  width: 100%;
+  border-bottom: 1px solid #e1e1e1;
+}
+main > .main-detail > .main-primary > .description > .description-name > h2 {
+  float: left;
+  width: 535px;
+  line-height: 28px;
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+}
+main > .main-detail > .main-primary > .description > .description-name > h2 > p {
+  font-size: 12px;
+  line-height: 32px;
+  color: #999;
+}
+main > .main-detail > .main-primary > .description > .description-name > a {
+  display: block;
+  float: right;
+  margin-top: 10px;
+  width: 68px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  border: 1px solid #ddd;
+  color: #333;
+  font-size: 14px;
+  background: #f1f1f1;
+}
+main > .main-detail > .main-primary > .description > .description-price {
+  padding-bottom: 0px;
+  width: 100%;
+  height: 110px !important;
+  max-height: 110px !important;
+  overflow: hidden;
+  border-bottom: 1px solid #e1e1e1;
+}
+main > .main-detail > .main-primary > .description > .description-price > strong {
+  height: 65px;
+  line-height: 65px;
+  font-size: 18px;
+  color: #f12020;
+}
+main > .main-detail > .main-primary > .description > .description-price > strong > span {
+  padding-right: 6px;
+  font-size: 23px;
+}
+main > .main-detail > .main-primary > .description > .description-where {
+  float: left;
+  padding-bottom: 15px;
+  width: 100%;
+  border-bottom: 1px solid #e3e3e3;
+  padding-top: 26px !important;
+}
+main > .main-detail > .main-primary > .description > .description-where > div {
+  height: 30px;
+  color: #333;
+}
+main > .main-detail > .main-primary > .description > .description-where > div > span {
+  display: block;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+main > .main-detail > .main-primary > .description > .description-where > div > #receiveAddr0 {
+  width: initial;
+  height: 28px;
+  padding: 0px 10px 0px 5px;
+  float: left;
+  border: 1px solid #dddddd;
+  position: relative;
+  margin-right: 14px;
+}
+main > .main-detail > .main-primary > .description > .description-where > div > #receiveAddr0 > #receiveAddr {
+  background: url(../images/x003.png) no-repeat right center;
+  height: 28px;
+  line-height: 28px;
+  width: initial;
+  padding-left: 11px;
+  padding-right: 15px;
+  font-weight: normal;
+  font-size: 13px;
+  color: #333333;
+  display: block;
+}
+main > .main-detail > .main-primary > .description > .description-where > div > #receiveAddr0 > .address-select-content {
+  width: 430px;
+  left: -1px;
+  height: auto;
+  margin-top: 0px;
+  position: absolute;
+  top: 100%;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  display: none;
+}
+main > .main-detail > .main-primary > .description > .description-where > div > #receiveAddr0 > .address-select-content > .address-select-area {
+  overflow: hidden;
+  border-bottom: 1px solid #f12;
+  height: 40px;
+  margin: 7px 15px 0px;
+}
+main > .main-detail > .main-primary > .description > .description-where > div > #receiveAddr0 > .address-select-content > .address-select-area > li.address-check {
+  width: 72px;
+  line-height: 30px;
+  margin: 9px 5px 0px 0px;
+  background: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  color: #f12020;
+  border: 1px solid #f12020;
+  height: 31px;
+}
+main > .main-detail > .main-primary > .description > .description-where > div > #receiveAddr0 > .address-select-content > .address-select-area > li {
+  width: 72px;
+  line-height: 30px;
+  height: 30px;
+  background: none;
+  border: 1px solid #dddddd;
+  border-bottom: none;
+  margin: 9px 5px 0px 0px;
+  color: #333333;
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+main > .main-detail > .main-primary > .description > .description-where > div > #receiveAddr0 > .address-select-content > .select-area-container {
+  height: auto;
+  width: auto;
+  padding: 15px;
+}
+main > .main-detail > .main-primary > .description > .description-where > div > #receiveAddr0 > .address-select-content > .select-area-container > .select-area {
+  height: auto;
+  width: auto;
+  display: block;
+  overflow: hidden;
+}
+main > .main-detail > .main-primary > .description > .description-where > div > #receiveAddr0 > .address-select-content > .select-area-container > .select-area > a {
+  font-size: 13px;
+  color: #333333;
+  line-height: 20px;
+  display: block;
+  height: 20px;
+  float: left;
+  width: 7em;
+  margin: 0px 5px 5px 0px !important;
+}
+main > .main-detail > .main-primary > .description > .description-where > div > #receiveAddr0:hover .address-select-content {
+  display: block;
+}
+main > .main-detail > .main-primary > .description > .description-where > p {
+  color: #333;
+  line-height: 56px;
+  font-size: 14px;
+}
+main > .main-detail > .main-primary > .description > .description-where > p > span {
+  padding-left: 10px;
+}
+main > .main-detail > .main-primary > .description > .description-num {
+  float: left;
+  padding-top: 30px;
+  width: 100%;
+}
+main > .main-detail > .main-primary > .description > .description-num > .pro-ditem-num {
+  height: 40px;
+  color: #333;
+  font-size: 14px;
+}
+main > .main-detail > .main-primary > .description > .description-num > .pro-ditem-num > span {
+  display: block;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  color: #333;
+  font-size: 14px;
+}
+main > .main-detail > .main-primary > .description > .description-num > .pro-ditem-num > div {
+  float: left;
+  height: 38px;
+  border: 1px solid #d4d4d4;
+}
+main > .main-detail > .main-primary > .description > .description-num > .pro-ditem-num > div > a {
+  display: block;
+  float: left;
+  width: 38px;
+  height: 100%;
+  line-height: 34px;
+  text-align: center;
+  background: #fff;
+  border-right: 1px solid #d4d4d4;
+  font-size: 24px;
+}
+main > .main-detail > .main-primary > .description > .description-num > .pro-ditem-num > div > a.next {
+  border: 0;
+}
+main > .main-detail > .main-primary > .description > .description-num > .pro-ditem-num > div > input {
+  float: left;
+  width: 77px;
+  height: 38px;
+  text-align: center;
+  line-height: 40px;
+  border-right: 1px solid #d4d4d4;
+}
+main > .main-detail > .main-primary > .description > .description-num > #nowbuy {
+  background: #f12020;
+  border: 1px solid #f12020;
+  color: #fff;
+}
+main > .main-detail > .main-primary > .description > .description-num > .pro-ditem-addin {
+  margin-left: 13px;
+  background: #fff;
+  border: 1px solid #999;
+  color: #666;
+}
+main > .main-detail > .main-primary > .description > .description-num > #nowbuy,
+main > .main-detail > .main-primary > .description > .description-num > .pro-ditem-addin {
+  display: block;
+  float: left;
+  margin-top: 35px;
+  width: 178px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+main > .main-detail > .main-primary > .description > .description-num > p {
+  float: left;
+  padding-top: 35px;
+  width: 100%;
+  height: 18px;
+}
+main > .main-detail > .main-primary > .description > .description-num > p > a {
+  padding-left: 25px;
+  padding-right: 30px;
+  line-height: 18px;
+  color: #333;
+  font-size: 14px;
+}
+main > .main-detail > .main-primary > .description > .description-num > p > a.kf {
+  background: url(../images/kf.jpg) no-repeat left center;
+}
+main > .main-detail > .main-primary > .description > .description-num > p > a.like {
+  background: url(../images/sc.jpg) no-repeat left center;
+}
+main > .main-detail > .main-primary > .description > .description-num > p > a.share {
+  background: url(../images/fx.jpg) no-repeat left center;
+}
+main > .main-item {
+  margin: 0 auto;
+  margin-top: 18px;
+  width: 1226px;
+  height: 60px;
+  border: 1px solid #cfcfcf;
+  background: #fff;
+}
+main > .main-item > a {
+  font-size: 16px;
+  display: block;
+  float: left;
+  margin: 0 32px;
+  margin-top: 1px;
+  padding: 0 11px;
+  height: 58px;
+  line-height: 58px;
+  color: #000;
+}
+main > .main-item > a.sel {
+  border-bottom: 2px solid #f12020;
+}
+main > .main-item span {
+  display: block;
+  float: left;
+  margin-left: 4px;
+  margin-top: 18px;
+  width: 1px;
+  height: 24px;
+  background: #cfcfcf;
+}
+main > .main-detail-sum {
+  width: 1226px;
+  margin: 0px auto;
+  margin-top: 12px;
+}
+main > .main-detail-sum > .detail-trait {
+  display: block;
+}
+main > .main-detail-sum > .detail-trait > img {
+  display: inline;
+}
