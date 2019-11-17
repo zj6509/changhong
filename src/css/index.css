@@ -9,6 +9,8 @@ main > .main-banner {
 }
 main > .main-banner > ul {
   height: 500px;
+  width: 100%;
+  position: relative;
 }
 main > .main-banner > ul > li {
   position: absolute;
@@ -31,6 +33,7 @@ main > .main-banner > .main-banner-tool {
   margin-left: -615px;
 }
 main > .main-banner > .main-banner-tool > .main-banner-btn {
+  display: none;
   height: 215px;
   width: 30px;
   cursor: pointer;
@@ -42,7 +45,7 @@ main > .main-banner > .main-banner-tool > .main-banner-left {
   left: 239px;
 }
 main > .main-banner > .main-banner-tool > .main-banner-right {
-  background: url(../images/icon-arrow.png) no-repeat left center;
+  background: url(../images/icon-arrow.png) no-repeat right center;
   right: 26px;
 }
 main > .main-banner > .main-banner-tool > .main-banner-num {
