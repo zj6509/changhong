@@ -10,15 +10,18 @@ define(['jquery'],function(){
                 success:function (res) {
                     let html='';
                     res.forEach(elm=>{
+                        console.log(elm.photo);
+                        let pic = JSON.parse(elm.photo);
+                        console.log(pic[1]);
                         html+=`
                         <div class="home-ele-f ">
                         <div class="home-ele-img">
-                            <a href="javascript:;" target="">
-                                <img class="lazy" alt="" src="${baseUrl}/src/${elm.photo}">
+                            <a href="${baseUrl}/src/html/detail.html?id=${elm.id}">
+                                <img class="lazy" alt="" src="${baseUrl}/src/${pic[0].index}">
                             </a>
                         </div>
                         <div class="home-ele-text" r3code="CH5012137">
-                            <h1><a href="javascript:;" target="" title="65英寸 AI音响物联无边全面屏">${elm.title}</a>
+                            <h1><a href="${baseUrl}/src/html/detail.html?id=${elm.id}" target="" title="65英寸 AI音响物联无边全面屏">${elm.title}</a>
                             </h1>
                             <p>${elm.sltitle}</p>
                             <h2>￥${elm.price}</h2>
@@ -151,6 +154,7 @@ define(['jquery'],function(){
             this.tabnav = $('.kind');
             this.tabli = $('.kind ul li');
             this.makeup = $('.hoseries');
+            this.backTop= $('.sustop');
             
 
             let _this = this;
@@ -159,6 +163,7 @@ define(['jquery'],function(){
             let $tabtop = $(window).scrollTop();
             if ($tabtop > $top) {
                 _this.tabnav.show();
+                _this.backTop.show();
             } else {
                 _this.tabnav.hide();
             }
@@ -196,12 +201,12 @@ define(['jquery'],function(){
                 });
             });
 
-            // //3.回到顶部
-            // _this.backTop.on('click', function () {
-            //     $('html,body').animate({
-            //         scrollTop: 0
-            //     });
-            // });
+            //3.回到顶部
+            _this.backTop.on('click', function () {
+                $('html,body').animate({
+                    scrollTop: 0
+                });
+            });
         }
     }
 });
