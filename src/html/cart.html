@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/public.css">
     <link rel="stylesheet" href="../css/cart.css">
+    <script src="../js/require.js" data-main="../js/main.cart"></script>
 </head>
 
 <body>
@@ -120,7 +121,7 @@
                                 <input type="checkbox" id="car_all_check">
                             </div>
                             <p class="car-lf-sp">
-                                全选<span id="total_num">2</span>种商品
+                                全选<span id="total_num">0</span>种商品
                             </p>
                         </div>
                         <p class="rt-sp">
@@ -129,51 +130,8 @@
                     </div>
                 </div>
                 <!-- -------购物列表-------- -->
-                <div class="main-items">
-                    <div class="main-items-goods">
-                        <div class="main-good-check">
-                            <input type="checkbox">
-                        </div>
-                        <div class="main-goods-rt">
-                            <div class="main-goods-top">
-                                <div class="main-goods-blank"></div>
-                                <div class="main-blank-rt">
-                                    <a href="javascript:;" class="like"></a>
-                                    <a href="javascript:;" class="delete"></a>
-                                </div>
-                            </div>
-                            <div class="main-goods-bottom">
-                                <a href="javascript:;">
-                                    <img src=".../src/images/watch03.jpg" alt="">
-                                </a>
-                                <!-- -------标题------ -->
-                                <div class="goods-main">
-                                    <a href="javascript:;">长虹（CHANGHONG）65Q6K 65英寸超薄物联网杜比视界HDR电视</a>
-                                </div>
-                                <!-- ------单价----- -->
-                                <div class="goods-price">
-                                    <p class="goods-notes"></p>
-                                    <p class="goods-cost">
-                                        单价<span id="item11818401_price">
-                                            10997.00</span>元
-                                    </p>
-                                    <p class="notes-bottom"></p>
-                                </div>
-                                <!-- ------数量------ -->
-                                <div class="goods-num">
-                                    <label for="">数量</label>
-                                    <div class="goods-sum">
-                                        <a class="sum-reduce" href="javascript:;"></a>
-                                        <input type="text">
-                                        <a class="sum-add" href="javascript:;"></a>
-                                    </div>
-                                </div>
-                                <!-- ---------有货-------- -->
-                                <p class="available">有货</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
+                <ul class="main-items"></ul>
                 <div class="distance"></div>
             </div>
             <!-- --------总计---------- -->

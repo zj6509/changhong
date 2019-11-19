@@ -1,6 +1,6 @@
 let baseUrl = "http://localhost/erjieduan/changhong";
 
-define(['jquery'], function () {
+define(['jquery','cookie'], function ($,cookie) {
     return {
         render: function (callback) {
             let id = location.search.split('=')[1];
@@ -48,6 +48,7 @@ define(['jquery'], function () {
                         `;
                         $('#main-nav').append(liststr);
                     });
+                    callback&&callback(res.id,res.price);
                 }
             }).done(function(){
                 
@@ -142,8 +143,49 @@ define(['jquery'], function () {
                     }
                 });
             });
+        },
+        addItem:function(id,price,num){
+            let goods=cookie.get('goods');//获取cookie数据，并判断是否存在
+
+            let depro = {
+                id:id,
+                price:price,
+                num:num
+            };
+
+            //1.如果cookie存在，修改cookie
+            if(goods){
+                goods = JSON.parse(goods);
+                if(goods.some(elm=>elm.id==id)){
+                    goods.forEach(elm=>{
+                        elm.id==id?elm.num = num:null;
+                    });
+                }else{
+                    goods.push(depro);
+                }
+            }else{//2.cookie不存在则添加
+                goods=[];//新建购物车
+                goods.push(depro);//放入商品
+            }
+
+            cookie.set('goods',JSON.stringify(goods),2);
+        },
+        numadd:function(){
+            $num=0;
+            $('#nextCount').on('click',function(){
+                $num=$('#count_value').val()
+                $num++;
+                $('#count_value').val($num);
+            });
+            $('#preCount').on('click',function(){
+                $num=$('#count_value').val()
+                $num--;
+                $('#count_value').val($num);
+                if($num<=1){
+                    $('#count_value').val(1)
+                }
+            });
         }
-        
     }
 });
 
