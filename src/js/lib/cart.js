@@ -138,17 +138,12 @@ define(['jquery', 'cookie'], function ($, cookie) {
            $('.delete').on('click',function(){
                let id=$(this).parent().attr('id');
                goods.forEach((val, i) => {
-                    if(val.id=id){
-                        console.log(val.id);
-                        console.log(id);
-                        console.log(cookie.get('goods',JSON.stringify(goods)));
-                        //cookie.remove('goods','',-1);
+                    if(val.id==id){
+                        goods.splice(i,1);
                     }
                 });
-                // cookie.get('goods',JSON.stringify(goods));
-                // if(goods.length==0){
-                //     cookie.remove('goods','',-1);
-                // }
+                cookie.set('goods',JSON.stringify(goods),1);
+                $(this).parent().parent().parent().parent().remove();
            });
         }
     }

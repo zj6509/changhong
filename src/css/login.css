@@ -79,8 +79,29 @@
   margin: 10px 0px;
   line-height: 20px;
   outline: none;
-  width: 325px;
   font-size: 16px;
+}
+.login-back > .inputTopDiv > .verifiCodeInput {
+  float: left;
+  border: none;
+  padding: 0px;
+  margin: 10px 0px;
+  line-height: 20px;
+  outline: none;
+  font-size: 16px;
+}
+.login-back > .inputTopDiv > .getVerifiCodeBtn {
+  float: left;
+  height: 100%;
+  width: 130px;
+  border: none;
+  border-left: 1px solid #bdbdbd;
+  margin: 0px 0px 0px 20px;
+  color: #3e3e3e;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+  background: #ffffff;
 }
 .login-back > .loginDiv {
   width: 380px;
