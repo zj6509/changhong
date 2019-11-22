@@ -1,6 +1,6 @@
 let baseUrl = "http://localhost/erjieduan/changhong";
 
-define(['jquery'],function($){
+define(['jquery','md5'],function($){
     return{
         code:function(selector){
             $(selector).on('click',function(){
@@ -9,12 +9,12 @@ define(['jquery'],function($){
                     type:'post',
                     data:{
                         phone:$('#username').val(),
-                        password:$('#password').val()
+                        password:$.md5($('#password').val())
                     },
                     success:function(res){
-                        let script = document.createElement('script');
-                        script.innerHTML = res;
-                        document.body.appendChild(script);
+                        let script = $('<script></script>');
+                        script.html(res);
+                        $('body').append(script);
                     }
                 });
             });

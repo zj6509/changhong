@@ -1,7 +1,7 @@
 <?php
     include('./conn.php');
 
-    $sql = "select * from goods";
+    $sql = "select * from good";
 
     $res = $mysqli->query($sql);
 

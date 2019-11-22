@@ -25,7 +25,7 @@ $insertSql="insert into user(sid,phone,`password`,`right`) values(null,'$phone',
 $res=$mysqli->query($insertSql);
 
 if($res){
-    echo '<script>alert("注册成功！");</script>';
+    echo "location.href='http://localhost/erjieduan/changhong/src/html/login.html';";
 }
 
 $mysqli->close();

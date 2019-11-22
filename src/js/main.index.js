@@ -1,7 +1,8 @@
 require.config({
     paths:{
         jquery:"./jquery.min",
-        index:"./lib/index"
+        index:"./lib/index",
+        jqlazyload:'jquery.lazyload/1.9.1/jquery.lazyload.min'
     },
     shim:{}
 });
