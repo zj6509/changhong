@@ -10,5 +10,5 @@ require.config({
 });
 
 require(['jquery','register'],function($,register){
-     register.verify();
+    register.verify();
 });

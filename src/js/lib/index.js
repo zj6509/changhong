@@ -16,7 +16,7 @@ define(['jquery','jqlazyload'], function () {
                         <div class="home-ele-f ">
                         <div class="home-ele-img">
                             <a href="${baseUrl}/src/html/detail.html?id=${elm.id}">
-                                <img class="lazy" alt="" src="${baseUrl}/src/${pic[0].index}">
+                                <img class="lazy" alt="" data-original="${baseUrl}/src/${pic[0].index}" >
                             </a>
                         </div>
                         <div class="home-ele-text" r3code="CH5012137">
@@ -31,7 +31,7 @@ define(['jquery','jqlazyload'], function () {
                     <div class="home-ele-f ">
                             <div class="home-ele-img">
                                 <a href="javascript:;" target="">
-                                    <img class="lazy" alt="" src="${baseUrl}/src/${pic[0].second}">
+                                    <img class="lazy" alt="" data-original="${baseUrl}/src/${pic[0].second}">
                                 </a>
                             </div>
                             <div class="home-ele-text" r3code="CH5012137">
@@ -166,6 +166,11 @@ define(['jquery','jqlazyload'], function () {
                         opacity: 0
                     });
                 }
+            });
+            $(function () { //页面加载完成
+                $("img.lazy").lazyload({
+                    effect: "fadeIn" //效果方式
+                });
             });
         },
         //楼梯效果

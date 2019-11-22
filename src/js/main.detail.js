@@ -18,4 +18,5 @@ require(['jquery','detail'],function($,detail){
         });
     });
     detail.numadd();
+    detail.watch();
 });

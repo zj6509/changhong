@@ -185,6 +185,71 @@ define(['jquery','cookie'], function ($,cookie) {
                     $('#count_value').val(1)
                 }
             });
+        },
+        watch: function () {
+            //--------------头部-----------
+            $('.hehover').on('mousemove', function () {
+                $('.hehover>a').eq($(this).index('.hehover')).addClass('cur').siblings('.hehover>a').removeClass('cur');
+            });
+            $('.hehover').on('mouseout', function () {
+                $('.hehover>a').removeClass('cur');
+            });
+            $('.sort-container').on('mousemove', function () {
+                $(this).css({
+                    background: '#555555'
+                }).siblings('.sort-container').css({
+                    background: '#333333'
+                });
+            });
+            $('.sort-container').on('mouseout', function () {
+                $('.sort-container').css({
+                    background: '#333333'
+                });
+            });
+
+
+
+            //----------长虹首页------------
+            this.navli = $('.logo-nav>ul>.hover');
+            this.navsub = $('.logo-nav-sub');
+            this.navli.on('mousemove', function () {
+                $(this).addClass('cur').siblings('.logo-nav>ul>.hover').removeClass('cur');
+                $('.logo-nav-sub').eq($(this).index('.logo-nav>ul>.hover')).show().siblings('.logo-nav-sub').hide();
+            });
+            this.navli.on('mouseout', function () {
+                $('.logo-nav>ul>.hover').removeClass('cur');
+                $('.logo-nav-sub').hide();
+            });
+
+
+            //启客系列
+            $('.logo-nav-inner>ul>li').on('mousemove', function () {
+                $(this).css({
+                    background: '#f12020'
+                }).siblings('.logo-nav-inner>ul>li').css({
+                    background: 'none'
+                });
+                $('.home-inner-secd').eq($(this).index()).show().siblings('.home-inner-secd').hide();
+            });
+            $('.logo-nav-inner>ul>li').on('mouseout', function () {
+                $('.logo-nav-inner>ul>li').css({
+                    background: 'none'
+                });
+                $('.home-inner-secd').hide();
+            });
+
+            const $top = $('.main-item').offset().top;
+            let $tabtop = $(window).scrollTop();
+            if ($tabtop > $top) {
+                $('.sustop').show();
+            } else {
+                $('.sustop').hide();
+            }
+            $('.sustop').on('click', function () {
+                $('html,body').animate({
+                    scrollTop: 0
+                });
+            });
         }
     }
 });
